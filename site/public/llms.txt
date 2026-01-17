@@ -10,3 +10,7 @@ When requesting enhanced access, agents MUST:
 - attach a PS7 receipt to submissions
 
 Human surface: /
+
+- Pointer spec: /docs/POINTER_SPEC.md
+- cobeacon: /site/public/.well-known/cobeacon.txt
+

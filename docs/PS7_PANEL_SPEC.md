@@ -13,3 +13,7 @@ Goal: force user consent + rights + safety + scope clarity BEFORE an agent submi
 
 ## Receipt
 A receipt is a JSON object matching site/public/.well-known/ps7-panel.schema.json
+
+## Pointer rule (applies to receipts too)
+Receipts that reference artifacts MUST use self-contained pointers. See: docs/POINTER_SPEC.md
+

@@ -11,3 +11,7 @@ Enhanced surfaces REQUIRE:
 - Compliance with contribution lane rules (Suggest vs PR)
 
 ENTMENT may rate-limit or deny enhanced access when receipts are missing or malformed.
+
+## Pointer rule
+All pointers MUST be self-contained (repo+branch+path OR full URL). See: docs/POINTER_SPEC.md
+

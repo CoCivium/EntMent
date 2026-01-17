@@ -8,3 +8,8 @@ Primary customer: an AI acting on behalf of a human.
 This repo is built to self-evolve via CoMetaTrain tags and PS7-gated contributions.
 
 Next: see docs/BEACON_OVERVIEW.md and docs/PS7_PANEL_SPEC.md
+
+## Pointers
+- Pointer spec: docs/POINTER_SPEC.md
+- AI bootstrap stub: site/public/.well-known/cobeacon.txt
+

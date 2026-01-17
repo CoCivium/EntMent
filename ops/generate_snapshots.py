@@ -1,5 +1,5 @@
 import json, os, re, glob
-from datetime import datetime
+from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root
 CONTENT = os.path.join(ROOT, "content")
@@ -90,7 +90,7 @@ for path in glob.glob(os.path.join(CONTENT, "**", "*.md"), recursive=True):
     })
 
 out = {
-    "generated_utc": datetime.utcnow().strftime("%Y%m%dT%H%M%SZ"),
+    "generated_utc": datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ"),
     "count": len(items),
     "items": sorted(items, key=lambda x: (x.get("type") or "", x.get("id") or ""))
 }
@@ -101,3 +101,4 @@ with open(out_path, "w", encoding="utf-8") as f:
     json.dump(out, f, indent=2, ensure_ascii=False)
 
 print(f"Wrote {out_path} with {len(items)} items")
+
