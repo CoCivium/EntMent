@@ -1,0 +1,177 @@
+{
+  "generated_utc": "20260117T053146Z",
+  "count": 5,
+  "items": [
+    {
+      "id": "entment.module.ai-self-directed-001",
+      "type": "module",
+      "title": "Self-directed learning with AI: the core loop",
+      "status": "draft",
+      "date_utc": "20260117T053144Z",
+      "tags": {
+        "tags": [
+          "entment",
+          "learning",
+          "ai",
+          "self-directed"
+        ]
+      },
+      "cometatrain": {
+        "cta": {
+          "cta": [
+            "Run the prompts and post your output",
+            "Open an Issue proposing one improvement (Suggest lane)"
+          ]
+        },
+        "evolve": {
+          "evolve": [
+            "Add 2 founder examples",
+            "Add mentor critique rubric"
+          ]
+        },
+        "roadmap": {
+          "roadmap": [
+            "v0.2: add peer review template",
+            "v0.3: tie outputs to claims+evidence schema"
+          ]
+        }
+      },
+      "path": "content/modules/ai-self-directed-001.md",
+      "body_markdown": "## Objective\nLearn a repeatable loop for using AI to learn faster without fooling yourself.\n\n## The Loop\n1. Define a question + success criteria.\n2. Ask for a plan + risks + unknowns.\n3. Produce an artifact (notes, spec, draft, code).\n4. Red-team the artifact (contradictions, missing evidence, weak assumptions).\n5. Iterate once.\n6. Publish + invite critique.\n\n## Prompts\n- \"Help me define success criteria for: <topic>. Give 3 measurable signals.\"\n- \"Red-team this plan. Find contradictions and missing premises.\"\n- \"Turn the improved plan into a checklist I can follow.\"\n\n## Output\nPost: (a) your success criteria, (b) the first artifact, (c) the red-team findings, (d) what you changed."
+    },
+    {
+      "id": "entment.prompt.weekly-001",
+      "type": "prompt",
+      "title": "Weekly prompt: What should your AI refuse to do for you?",
+      "status": "draft",
+      "date_utc": "20260117T053144Z",
+      "tags": {
+        "tags": [
+          "entment",
+          "weekly",
+          "safety"
+        ]
+      },
+      "cometatrain": {
+        "cta": {
+          "cta": [
+            "Reply with your personal boundary list",
+            "Suggest one new boundary pattern we should add"
+          ]
+        },
+        "evolve": {
+          "evolve": [
+            "Add examples for founders vs mentors",
+            "Add a safety checklist for agentic tool use"
+          ]
+        },
+        "roadmap": {
+          "roadmap": [
+            "v0.2: add PS7 consent reminders"
+          ]
+        }
+      },
+      "path": "content/prompts/weekly-001.md",
+      "body_markdown": "## Prompt\nWrite a short list of tasks you *do not* want your AI to do for you, even if it technically can.\n\n## Why\nAgentic delegation is powerful and risky. Your boundaries are part of your operating system.\n\n## Template\n- \"My AI should never: …\"\n- \"My AI can do with confirmation: …\"\n- \"My AI can do autonomously: …\""
+    },
+    {
+      "id": "entment.resource.opportunity-001",
+      "type": "resource",
+      "title": "Opportunity pattern: internal copilots for boring, regulated workflows",
+      "status": "draft",
+      "date_utc": "20260117T053144Z",
+      "tags": {
+        "tags": [
+          "entment",
+          "opportunities",
+          "compliance"
+        ]
+      },
+      "cometatrain": {
+        "cta": {
+          "cta": [
+            "Add one regulated workflow worth targeting"
+          ]
+        },
+        "evolve": {
+          "evolve": [
+            "Add a compliance-first checklist"
+          ]
+        },
+        "roadmap": {
+          "roadmap": [
+            "v0.2: add red flags for data leakage"
+          ]
+        }
+      },
+      "path": "content/resources/opportunity-001.md",
+      "body_markdown": "## Pattern\nAI products win when they remove drudgery in workflows that already have budgets and urgency.\n\n## Watch-outs\n- Data governance\n- Audit trails\n- Prompt injection into tools"
+    },
+    {
+      "id": "entment.resource.prompting-001",
+      "type": "resource",
+      "title": "Prompting best practice: make success criteria explicit",
+      "status": "draft",
+      "date_utc": "20260117T053144Z",
+      "tags": {
+        "tags": [
+          "entment",
+          "prompt-engineering",
+          "best-practice"
+        ]
+      },
+      "cometatrain": {
+        "cta": {
+          "cta": [
+            "Add one example prompt pair (bad→good)"
+          ]
+        },
+        "evolve": {
+          "evolve": [
+            "Add common failure modes (overconfidence, missing constraints)"
+          ]
+        },
+        "roadmap": {
+          "roadmap": [
+            "v0.2: add evaluation rubric"
+          ]
+        }
+      },
+      "path": "content/resources/prompting-001.md",
+      "body_markdown": "## Idea\nMost prompt failures are missing success criteria. Make the AI restate them before it answers.\n\n## Example\nBad: \"Write a business plan.\"\nBetter: \"Write a 1-page plan with: ICP, value prop, 3 risks, 3 experiments, and success metrics.\""
+    },
+    {
+      "id": "entment.resource.startup-exemplar-001",
+      "type": "resource",
+      "title": "Startup exemplar: evaluate an AI startup without hype",
+      "status": "draft",
+      "date_utc": "20260117T053144Z",
+      "tags": {
+        "tags": [
+          "entment",
+          "startup-exemplars",
+          "evaluation"
+        ]
+      },
+      "cometatrain": {
+        "cta": {
+          "cta": [
+            "Submit an exemplar analysis template improvement"
+          ]
+        },
+        "evolve": {
+          "evolve": [
+            "Add evidence categories (customers, retention, distribution)"
+          ]
+        },
+        "roadmap": {
+          "roadmap": [
+            "v0.2: add structured fields + JSON export"
+          ]
+        }
+      },
+      "path": "content/resources/startup-exemplar-001.md",
+      "body_markdown": "## Template\n- What problem is solved?\n- Why now?\n- What is the moat (if any)?\n- What would falsify the thesis in 30 days?\n- What evidence exists (public, consented)?"
+    }
+  ]
+}
