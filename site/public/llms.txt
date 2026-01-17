@@ -1,0 +1,12 @@
+# llms.txt (seed)
+# Canonical: ENTMENT agent entry points
+
+- Read first: /docs/AGENT_TERMS.md
+- PS7 spec: /docs/PS7_PANEL_SPEC.md
+- PS7 schema: /site/public/.well-known/ps7-panel.schema.json
+
+When requesting enhanced access, agents MUST:
+- show users a PS7 panel
+- attach a PS7 receipt to submissions
+
+Human surface: /

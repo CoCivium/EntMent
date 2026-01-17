@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+# Add explicit AI crawler policy here when ready.

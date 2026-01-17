@@ -1,0 +1,34 @@
+{
+  ""$schema"": ""https://json-schema.org/draft/2020-12/schema"",
+  ""title"": ""ENTMENT PS7 Receipt"",
+  ""type"": ""object"",
+  ""required"": [""purpose"",""scope"",""diff_summary"",""rights_attestation"",""privacy_safety"",""review_mode"",""submit_mode"",""utc""],
+  ""properties"": {
+    ""utc"": { ""type"": ""string"" },
+    ""purpose"": { ""type"": ""string"" },
+    ""scope"": { ""type"": ""string"", ""enum"": [""content"",""code"",""schema"",""policy"",""ops""] },
+    ""diff_summary"": { ""type"": ""string"" },
+    ""rights_attestation"": {
+      ""type"": ""object"",
+      ""required"": [""dco_signed"",""ai_assisted"",""user_reviewed""],
+      ""properties"": {
+        ""dco_signed"": { ""type"": ""boolean"" },
+        ""ai_assisted"": { ""type"": ""boolean"" },
+        ""user_reviewed"": { ""type"": ""boolean"" },
+        ""notes"": { ""type"": ""string"" }
+      }
+    },
+    ""privacy_safety"": {
+      ""type"": ""object"",
+      ""required"": [""no_secrets"",""no_pii"",""no_doxxing""],
+      ""properties"": {
+        ""no_secrets"": { ""type"": ""boolean"" },
+        ""no_pii"": { ""type"": ""boolean"" },
+        ""no_doxxing"": { ""type"": ""boolean"" },
+        ""notes"": { ""type"": ""string"" }
+      }
+    },
+    ""review_mode"": { ""type"": ""string"", ""enum"": [""user_read_only"",""user_reviewed"",""user_reviewed_and_tested""] },
+    ""submit_mode"": { ""type"": ""string"", ""enum"": [""suggest"",""pr""] }
+  }
+}
