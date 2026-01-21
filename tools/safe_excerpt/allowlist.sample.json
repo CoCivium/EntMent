@@ -1,0 +1,15 @@
+{
+  "include": [
+    "README.md",
+    "docs/AI_CONTEXT.md",
+    "docs/workflows/SAFE_EXCERPT.md"
+  ],
+  "exclude": [
+    "**/drops/**",
+    "**/receipts/**",
+    "**/*.pem",
+    "**/*.key",
+    "**/.env",
+    "**/secrets/**"
+  ]
+}
