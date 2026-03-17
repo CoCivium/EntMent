@@ -1,52 +1,200 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>EntMent</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EntMent</title>
+
 <style>
-body{font-family:Segoe UI,Arial;margin:30px;max-width:1100px}
-.card{border:1px solid #ddd;border-radius:12px;padding:16px;margin:16px 0}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+:root{
+  --bg:#0b1220;
+  --panel:#121b2d;
+  --accent:#6ecbff;
+  --accent2:#9bffd6;
+  --text:#e8efff;
+  --muted:#9fb2d3;
+  --line:#2b3d5c;
+}
+
+body{
+  margin:0;
+  font-family:system-ui,Segoe UI,Roboto;
+  background:radial-gradient(circle at 30% 20%, #13213a, #0b1220);
+  color:var(--text);
+}
+
+.wrap{
+  max-width:1000px;
+  margin:0 auto;
+  padding:48px 20px;
+}
+
+.hero{
+  padding:30px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:linear-gradient(180deg,#121b2d,#0f1726);
+  box-shadow:0 20px 60px rgba(0,0,0,.4);
+}
+
+h1{
+  font-size:48px;
+  line-height:1.05;
+  margin:0 0 16px;
+}
+
+.hero p{
+  font-size:20px;
+  color:var(--muted);
+}
+
+.signal{
+  margin-top:16px;
+  font-size:14px;
+  color:var(--accent2);
+}
+
+.btns{
+  margin-top:24px;
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+button,a{
+  padding:12px 18px;
+  border-radius:12px;
+  border:1px solid var(--line);
+  background:#13213a;
+  color:#fff;
+  text-decoration:none;
+  cursor:pointer;
+  transition:.2s;
+}
+
+button:hover,a:hover{
+  border-color:var(--accent);
+  transform:translateY(-2px);
+}
+
+.primary{
+  background:linear-gradient(90deg,#16324a,#1d4b6b);
+  border-color:#4a84b8;
+}
+
+.section{
+  margin-top:50px;
+}
+
+.cards{
+  display:grid;
+  gap:14px;
+}
+
+.card{
+  border:1px solid var(--line);
+  padding:18px;
+  border-radius:14px;
+  background:#0f1726;
+  cursor:pointer;
+  transition:.2s;
+}
+
+.card:hover{
+  border-color:var(--accent);
+  transform:translateY(-3px);
+}
+
+.small{
+  color:var(--muted);
+  font-size:14px;
+  margin-top:6px;
+}
+
+.footer{
+  margin-top:60px;
+  font-size:14px;
+  color:var(--muted);
+}
 </style>
 </head>
+
 <body>
+<div class="wrap">
 
-<h1>EntMent</h1>
+<div class="hero">
+<h1>Structured signal for building better ideas.</h1>
 
-<p><b>Build better companies. Become a better guide. Switch roles when it matters.</b></p>
+<p>
+Not prompts.<br>
+Not courses.<br><br>
+A new interface for thinking with AI.
+</p>
 
-<div class="card">
-<h2>Live Signal</h2>
-<p>EntMent is now actively forming from harvested project intelligence.</p>
-<pre>- GroupBuild_Backup_20250820.zip
-- Bplans+Investor+Pitch+Deck+Template+-+PowerPoint.pptx
-- EntMent_StartupsBoard_Spec_v3.odt
-- EntMent_StartupsBoard_Spec_v3a.odt
-- 7640-20250402132800-specsheets (1).zip
-- 7640-20250402132800-specsheets (1) (1).zip
-- EM_MVP_Overview.odt
-- EM_MVP_Plan_v1.odt
-- GB_Volunteer_Onboard_Agreement_v2.odt
-- GB_Volunteer_Onboard_Agreement.odt
-- GB_Volunteer_Onboarding_Agreement_v5.odt
-- GB_We_The_People_Storyboard.png
-- GB_We_The_People_Empowered_StoryBoard.png
-- GB_Landing_Graphic_Spec_v2.odt
-- GB_Resources_Page_MVP_Plan_v5.odt
-- InSeed_Logo.afdesign
-- GB_Group_Profile_Mockup.png
-- BA_Trust_Transparency_Layers.png
-- CBS Overview with ICP slide.pdf
-- CBS Overview with ICP slide (1).pdf</pre>
+<div class="signal">
+CoClouds → Modes → Shared state
 </div>
 
-<div class="grid">
-<div class="card"><a href="boards.html">Advisory Boards</a></div>
-<div class="card"><a href="groupbuild.html">GroupBuild</a></div>
-<div class="card"><a href="academy.html">Academy</a></div>
-<div class="card"><a href="trust.html">Trust</a></div>
+<div class="btns">
+<a class="primary" href="#try">Try it now</a>
+<a href="https://CoCivium.github.io/CoAura/docs/labs/coclouds/">Open full lab</a>
 </div>
+</div>
+
+<div id="try" class="section">
+<h2>Start with a signal</h2>
+
+<div class="cards">
+
+<div class="card" onclick="goPreset('venture_evolution','human_ai_coordination','guided')">
+<strong>Andrew</strong>
+<div class="small">systems thinking · venture trajectory · structured evolution</div>
+</div>
+
+<div class="card" onclick="goPreset('venture_evolution','','human')">
+<strong>Elias</strong>
+<div class="small">builder momentum · real-world next steps</div>
+</div>
+
+<div class="card" onclick="goPreset('human_ai_coordination','capability_evolution','raw_signal')">
+<strong>Systems Builders</strong>
+<div class="small">coordination · architecture · signal clarity</div>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+<h2>What you’re looking at</h2>
+
+<p class="small">
+• CoClouds = clustered concept fields<br>
+• Modes = different resolutions of the same signal<br>
+• Presets = starting points you can mutate instantly
+</p>
+</div>
+
+<div class="footer">
+EntMent is a CoAura surface.
+</div>
+
+</div>
+
+<script>
+function goPreset(cloud,compose,mode){
+  let url = "https://CoCivium.github.io/CoAura/docs/labs/coclouds/?cloud=" + cloud;
+
+  if(compose){
+    url += "&compose=" + compose;
+  }
+
+  if(mode){
+    url += "&mode=" + mode;
+  }
+
+  window.location.href = url;
+}
+</script>
 
 </body>
 </html>
