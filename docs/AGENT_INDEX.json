@@ -1,24 +1,41 @@
 ﻿{
-  ""system"": ""EntMent"",
-  ""generated_utc"": ""20260317T013128Z"",
-  ""root"": ""https://entment.org/"",
-  ""pages"": [
-    ""index.html"",
-    ""overview.html"",
-    ""boards.html"",
-    ""groups.html"",
-    ""academy.html"",
-    ""trust.html"",
-    ""ent.html"",
-    ""ment.html"",
-    ""investor.html"",
-    ""roadmap.html"",
-    ""copaths.html"",
-    ""handoff.html""
-  ],
-  ""intent"": {
-    ""public_first"": true,
-    ""brand_root"": ""EntMent"",
-    ""academy_is_section_not_brand"": true
-  }
+    "system":  "EntMent",
+    "generated_utc":  "20260317T014802Z",
+    "root":  "https://entment.org/",
+    "pages":  [
+                  "index.html",
+                  "overview.html",
+                  "boards.html",
+                  "groups.html",
+                  "academy.html",
+                  "trust.html",
+                  "ent.html",
+                  "ment.html",
+                  "investor.html",
+                  "roadmap.html",
+                  "copaths.html",
+                  "handoff.html",
+                  "live.html"
+              ],
+    "assets":  [
+                   "EntMent.png",
+                   "EM_Logo_Dark.png",
+                   "EM_Logo_Dark.ico",
+                   "Logos.png",
+                   "LogosVector.png",
+                   "Projects_Banner.png",
+                   "Projects_Banner.afdesign",
+                   "BA_Logo_Torsos.png",
+                   "BA_Logo_Kitten_Wireframe.jpg",
+                   "BA_Logo_Kitten_Wireframe.ico",
+                   "01_A_colorful_digital_illustration_depicts_an_early_m.png",
+                   "02_A_colorful,_cartoon-style_illustration_depicts_an_.png",
+                   "03_A_colorful,_cartoon-style_illustration_with_bold_o.png",
+                   "04_A_colorful,_cartoon-style_digital_illustration_pro.png",
+                   "05_A_colorful,_cartoon-style_digital_illustration_add.png",
+                   "06_A_colorful,_cartoon-style_digital_illustration_fea.png",
+                   "07_A_colorful,_cartoon-style_digital_illustration_dep.png",
+                   "08_A_colorful_digital_illustration_in_a_cartoon-style.png",
+                   "09_A_colorful_digital_illustration_features_an_orange.png"
+               ]
 }
