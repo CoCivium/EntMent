@@ -1,0 +1,24 @@
+﻿{
+  ""system"": ""EntMent"",
+  ""generated_utc"": ""20260317T013128Z"",
+  ""root"": ""https://entment.org/"",
+  ""pages"": [
+    ""index.html"",
+    ""overview.html"",
+    ""boards.html"",
+    ""groups.html"",
+    ""academy.html"",
+    ""trust.html"",
+    ""ent.html"",
+    ""ment.html"",
+    ""investor.html"",
+    ""roadmap.html"",
+    ""copaths.html"",
+    ""handoff.html""
+  ],
+  ""intent"": {
+    ""public_first"": true,
+    ""brand_root"": ""EntMent"",
+    ""academy_is_section_not_brand"": true
+  }
+}

@@ -1,0 +1,7 @@
+﻿ROOT=https://entment.org/
+GENERATED_UTC=20260317T013128Z
+SYSTEM=EntMent
+PRIMARY=index.html
+ROADMAP=roadmap.html
+COPATHS=copaths.html
+HANDOFF=handoff.html
