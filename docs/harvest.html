@@ -1,0 +1,10 @@
+<!doctype html><html><body>
+<h1>Harvest Index</h1>
+<p>See JSON index below.</p>
+<pre id='data'></pre>
+<script>
+fetch('_harvest_fast/instant_index.json')
+.then(r=>r.json())
+.then(d=>document.getElementById('data').textContent = JSON.stringify(d,null,2))
+</script>
+</body></html>
